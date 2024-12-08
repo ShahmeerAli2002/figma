@@ -59,7 +59,9 @@ const TextSection = ({
 const ImageSection = ({ image }: { image: string }) => {
   return (
     <section className="relative h-[450px] md:w-1/2 w-full overflow-hidden">
-      <Image src={image} alt="" fill={true} className="object-cover hover:grayscale duration-500 cursor-pointer" />
+
+      <Image src={image} alt="" fill={true} className="object-cover hover:scale-110 hover:brightness-75 transition-all duration-500 cursor-pointer" />
     </section>
   );
+
 };

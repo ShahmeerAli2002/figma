@@ -49,7 +49,7 @@ const Ceramics = ({ heading }: { heading?: string }) => {
       </div>
       <div className="w-full flex justify-center">
         <Link href="/products">
-          <button className="bg-lightGray h-12 w-36 capitalize text-sm">
+          <button className="bg-lightGray h-12 w-36 capitalize text-sm hover:bg-darkPrimary hover:text-white transition-all duration-300">
             view collection
           </button>
         </Link>

@@ -36,7 +36,7 @@ const Brand = () => {
       </h2>
       <div className="flex w-full justify-center flex-wrap items-center gap-5">
         {cardsData.map((val, ind) => (
-          <Link key={ind} href="/about">
+          <Link key={ind} href="/about" className="hover:text-darkPrimary">
             <Card
               heading={val.heading}
               paragraph={val.paragraph}
